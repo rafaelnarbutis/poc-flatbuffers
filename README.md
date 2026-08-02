@@ -137,24 +137,6 @@ http://localhost:8080
 
 O repositório também contém o arquivo de teste de carga em [loadtest.js](loadtest.js). Ele simula requisições ao BFF em Java para medir latência e taxa de erro do endpoint `/users`.
 
-### Instalar o k6
-
-No macOS:
-
-```bash
-brew install k6
-```
-
-No Linux (Ubuntu/Debian):
-
-```bash
-sudo gpg -k
-sudo gpg --no-default-keyring --keyring /usr/share/keyrings/k6-archive-keyring.gpg --keyserver hkp://keyserver.ubuntu.com:80 --recv-keys C5AD17C747E9415F
-echo 'deb [signed-by=/usr/share/keyrings/k6-archive-keyring.gpg] https://dl.k6.io/deb stable main' | sudo tee /etc/apt/sources.list.d/k6.list
-sudo apt-get update
-sudo apt-get install k6
-```
-
 ### Executar o teste
 
 Na raiz do projeto:
