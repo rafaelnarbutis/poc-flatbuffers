@@ -22,3 +22,27 @@
 # virtual machine crash logs, see http://www.java.com/en/download/help/error_hotspot.xml
 hs_err_pid*
 replay_pid*
+
+# Go build artifacts
+/bin/
+/pkg/
+/obj/
+*.exe
+*.exe~
+*.dll
+*.so
+*.dylib
+*.test
+*.out
+
+# Go workspace / dependency cache
+/go.work
+/go.work.sum
+
+# Go module cache (when downloaded locally)
+/vendor/
+
+# Local build folders
+bin/
+build/
+coverage.out

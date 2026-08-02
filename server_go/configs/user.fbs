@@ -1,0 +1,6 @@
+namespace model;
+
+table User {
+    name: string;
+    age: byte;
+}

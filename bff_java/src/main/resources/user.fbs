@@ -1,0 +1,6 @@
+namespace com.bff.demo.model;
+
+table User {
+    name: string;
+    age: byte;
+}
